@@ -1,0 +1,21 @@
+h2. Mojo Variables
+
+Set variables in your layout file or anywhere throughout Mojo Regions then use them again anywhere.
+
+h3. Installation
+
+Download the files and place in a folder named "variables" in:
+
+    system/mojomotor/third_party/
+
+h3. Usage
+
+Set a variable:
+
+{mojo:variables:set name="foo" value="bar"}
+
+Get value of a variable:
+
+{mojo:variables:get name="foo"}
+
+Couldn't be any easier right?
